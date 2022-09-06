@@ -6,7 +6,7 @@ def arithmetic_arranger(problems):
         for problem in problems:
             #  Remove unwanted spaces
             problem = problem.replace(' ', '')
-            # Check all problems have + or -.
+            # Check all problems have "+" or "-" only.
             if "+" in problem:
                 problem = problem.split("+")
             elif "-" in problem:
