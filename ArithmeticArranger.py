@@ -37,7 +37,7 @@ def arithmetic_arranger(problems, result=True):
 
             # Evaluating the concatenation of the problem and the operator with the 'eval' function
             if result:
-                # Using eval to go from str to ing back to str to concatenate
+                # Using eval to go from str to int back to str to concatenate
                 answer = str(eval(problem[0] + operator + problem[1]))
                 # Concatenating the result of the expression with the contained digits rightly-just to the string [line4]
                 line4 += answer.rjust(align) + "    "
